@@ -81,10 +81,6 @@ body {
     background-color: #5BB274;
 }
 
-button:focus {
-    outline: none;
-}
-
 a {
     text-decoration: underline;
     cursor: pointer;

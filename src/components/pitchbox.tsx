@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Pitcher, PitcherProps } from "./pitcher";
 
-interface PitchBoxProps {
+export interface PitchBoxProps {
     name: string;
     amount: number;
     message: string;
