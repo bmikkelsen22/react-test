@@ -13,11 +13,11 @@ export class AddExpenseModal extends React.Component<IAddExpenseProps, IPitchBox
     constructor(props: IAddExpenseProps) {
         super(props);
         this.state = {
-            name: "",
+            name: "Name", //TODO: read name from cookies
             amount: 0,
             message: "",
             pitchers: [],
-            category: ExpenseCategory.groceries
+            category: ExpenseCategory.Utilities
         }
     }
 

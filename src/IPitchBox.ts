@@ -9,7 +9,7 @@ export interface IPitchBox {
 }
 
 export enum ExpenseCategory {
-    utilities = 1,
-    groceries = 2,
-    other = 3
+    Utilities = 0,
+    Groceries = 1,
+    Other = 2
 }

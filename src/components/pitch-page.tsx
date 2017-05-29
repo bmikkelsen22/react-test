@@ -23,6 +23,7 @@ export class PitchPage extends React.Component<undefined, IPitchPageState> {
 
     addPitch = (pitchBox: PitchBoxProps) => {
         //TODO: post back to API, update state
+        alert("Add expense: " + JSON.stringify(pitchBox));
         this.toggleAddModalVisible();
     }
 
